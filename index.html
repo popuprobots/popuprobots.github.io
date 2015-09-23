@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>PopUp Robots - Norfolk Robotics Meet-up</title>
     
-    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <!--<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">-->
     <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
 	  <link href="assets/css/get-shit-done.css" rel="stylesheet" />  
     <link href="assets/css/main.css" rel="stylesheet" /> 
@@ -14,7 +14,7 @@
     <link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     
-    <script>
+    <!--<script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -23,7 +23,7 @@
       ga('create', 'UA-53526020-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
+    </script>-->
   
 </head>
 <body>
@@ -59,8 +59,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Link</a></li>
-                <li class="dropdown">
+                <li class="active"><a href="http://www.meetup.com/NorfolkJS/">Meetup Page</a></li>
+                <li><a href="#mc_embed_signup">Newsletter Signup</a></li>
+                <!--<li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                       <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
@@ -71,7 +72,7 @@
                         <li class="divider"></li>
                         <li><a href="#">Separated link</a></li>
                       </ul>
-                </li>
+                </li>-->
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -87,12 +88,50 @@
     <div class="container tim-container" style="max-width:800px; padding-top:100px">
       <img src='assets/img/pur.png' class="img-responsive">
        <h1 class="text-center"><br><small>The Intersection of Hardware and Software in the 757</small></h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>      
-           <!--     end extras -->        
+       
+         <div class="row tim-row">
+        <div class="col-md-3 col-md-offset-1">
+            <h3>Who Comes to PopUp Robots?</h3>
+        </div>
+        <div class="col-md-7">
+            <p>
+            PopUp Robots is an informal meeting of people who are interested in Robots, Automation, Arduino, Nodebots, and IoT devices. 
+            </p>
+            <p>
+            We welcome all skill levels and background. If you are a web developer and you already know some JavaScript then you can dive right in with Nodebots. If you are new to robotics, you can come out and learn. If you have been tinkering with Arduinos, you can extend that knowledge and do more.
+            </p>
+            
+        </div>
+        <div class="col-md-4">
+        
+        </div>
+    </div>
+    <!--     end row -->
+
+    <div class="row tim-row">
+        <div class="col-md-3 col-md-offset-1">
+            <h3>When & Where is it?</h3>
+        </div>
+        <div class="col-md-7"> 
+        <p>
+        We meet at the 757 Makerspace every third Thursday of the month in their awesome space. There is a brief presentation on a different concept and then an open build phase where you are encouraged to show off your latest project ask questions, and work on your own projects and get help from the other members. We can help you find the resources you need to make your project bigger and better. We are proud of our community and can't wait to meet you. 
+        </p>
+        <p>
+        We have a Meetup Page at http://www.meetup.com/NorfolkJS/
+        </p>
+        <p>
+        Sign up for our newsletter to get the latest info and meeting announcements!
+        </p>
+        
+        </div>
+    </div>
+    <!--     end row -->
+         
+       
+             
     </div>
     <div class="space"></div>
-<!-- end container -->
+<!-- end main -->
 
     <div id="carousel">
     <!--    
@@ -144,13 +183,14 @@
 
 <div class="main" style="background-color: #EEE">
     <div class="container">  
+        <div class="row">
         <div class="space-100"></div>
         
         <div id="mc_embed_signup">
             <form action="http://popuprobots.us8.list-manage.com/subscribe/post?u=3ff0f790f2f5b98002668ec19&amp;id=212d214771" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
               <div class="form-group">
-                <h2><label for="mce-EMAIL">Then stick in that e-mail address and we'll let you know when the next meetup is going down.</label></h2>
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="e-mail address" required autofocus>
+                <h2><label for="mce-EMAIL">Stick in that e-mail address and we'll let you know when the next meetup is going down.</label></h2>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="e-mail address" required>
                 <input type="submit" value="Let Me Know!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info btn-fill">
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;"><input type="text" name="b_3ff0f790f2f5b98002668ec19_212d214771" tabindex="-1" value=""></div>
@@ -159,6 +199,7 @@
         </div>
         
         <div class="space-100"></div>
+        </div>
     </div>
 </div>
 </div>
